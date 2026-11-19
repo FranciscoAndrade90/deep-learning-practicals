@@ -1,0 +1,11 @@
+# Requirements for the two practicals (score matching and GANs).
+# Install with:  pip install -r requirements.txt
+# Everything runs on a CPU; no GPU is needed.
+
+torch>=2.0        # both practicals
+numpy>=1.24       # both practicals
+matplotlib>=3.7   # both practicals
+scipy>=1.10       # both practicals (Wasserstein distance in the utils files)
+
+# To open the notebooks locally (not needed on Google Colab):
+jupyter
